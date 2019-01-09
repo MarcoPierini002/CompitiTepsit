@@ -15,11 +15,9 @@ namespace _09._01._2019
             erroreTempo = errore * 100 * 60 * 60 * 10;
             Console.WriteLine("l'errore del tempo è {0}", erroreTempo);
             Console.WriteLine();
-
-
-
+            double spazio = 0;
+            double velocitaScud = 1676;
             
-                
 
 
 
@@ -30,7 +28,11 @@ namespace _09._01._2019
 
 
 
-                Console.ReadLine();
+
+
+
+
+            Console.ReadLine();
 
             }
         }
