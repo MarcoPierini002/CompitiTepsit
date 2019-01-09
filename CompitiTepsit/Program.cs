@@ -17,7 +17,8 @@ namespace _09._01._2019
             Console.WriteLine();
             double spazio = 0;
             double velocitaScud = 1676;
-            
+            spazio = velocitaScud * erroreTempo;
+            Console.WriteLine("lo spazio è {0}", spazio);
 
 
 
