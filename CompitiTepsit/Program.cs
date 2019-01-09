@@ -12,7 +12,7 @@ namespace _09._01._2019
         {
             double errore = 0.000000095;
             
-
+            
 
 
 
