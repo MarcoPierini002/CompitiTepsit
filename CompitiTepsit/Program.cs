@@ -11,8 +11,15 @@ namespace _09._01._2019
         static void Main(string[] args)
         {
             double errore = 0.000000095;
+            double erroreTempo = 0;
+            erroreTempo = errore * 100 * 60 * 60 * 10;
+            Console.WriteLine("l'errore del tempo è {0}", erroreTempo);
+            Console.WriteLine();
+
+
+
             
-            
+                
 
 
 
@@ -22,8 +29,22 @@ namespace _09._01._2019
 
 
 
-            Console.ReadLine();
 
+                Console.ReadLine();
+
+            }
         }
     }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+    
